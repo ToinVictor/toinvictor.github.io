@@ -1,0 +1,128 @@
+/* Estilo Geral */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0d0d2b; /* Azul escuro, lembrando o espaço */
+    color: #ffffff;
+    text-align: center;
+    background-image: url('assets/fundo.png'); 
+
+}
+
+.container {
+    padding-bottom: 150px;
+}
+
+/* Cabeçalho */
+header {
+    padding: 20px;
+    background-color: #1f1f49; /* Cor roxa escura para reforçar o tema espacial */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin: 0;
+}
+
+header h1 span {
+    color: #8e44ad; /* Roxo para destacar o Diagrama HR */
+}
+
+/* Botões */
+.buttons {
+    margin-top: 50px;
+}
+
+.buttons button {
+    background-color: #8e44ad; /* Roxo forte para os botões */
+    border: none;
+    color: #ffffff;
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buttons button:hover {
+    background-color: #5e3370; /* Cor mais escura no hover */
+}
+
+/* Rodapé */
+.footer {
+    background-color: #001f3f;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer-buttons {
+    margin-bottom: 10px;
+}
+
+.footer-buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.footer p {
+    margin: 0;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .buttons button {
+        width: 80%;
+        margin: 15px auto;
+    }
+}
+
+/* Estilo dos cards */
+.card {
+    background-color: #1f1f49;
+    color: #ffffff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    background-color: #8e44ad;
+}
+
+/* Estilo da imagem do card */
+.card-img {
+    width: 30px;
+    height: 150px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Botão de acesso ao material */
+.btn {
+    margin-top: 10px;
+}
+
+/* Conteúdo escondido */
+.content {
+    background-color: #2e2e50;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 8px;
+    color: #ffffff;
+}
